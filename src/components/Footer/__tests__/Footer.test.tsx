@@ -3,8 +3,9 @@ import { Footer } from "../Footer";
 import renderer from "react-test-renderer";
 
 describe("Footer", () => {
-  it("matches snapshot", () => {
-    const tree = renderer.create(<Footer />).toJSON();
+  it("should match snapshot", () => {
+    const tree = renderer.create(<Footer />);
+
     expect(tree).toMatchSnapshot();
   });
 
