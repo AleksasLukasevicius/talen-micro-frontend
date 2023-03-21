@@ -11,6 +11,7 @@ describe("Footer", () => {
 
   it("should Foooter render", () => {
     render(<Footer />);
+    
   });
 
   it("should Footer render current year", () => {
